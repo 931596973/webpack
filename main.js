@@ -1,5 +1,5 @@
-require('./main.css')
+import './main.css';
 
-const show = require('./show.js');
+import show from './show.js';
 // 执行 show 函数
 show('Webpack');
